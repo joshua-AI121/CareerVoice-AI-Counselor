@@ -1,0 +1,40 @@
+def _resolve_admission_target(
+    profile: Dict,
+    career_id: Optional[str] = None
+) -> Dict:
+    """
+    Resolve the student's broad career and explicitly selected course.
+
+    The selected target_course always takes priority when available.
+    """
+    cid = career_id or profile.get("career_goal_id")
+
+    if not cid:
+        return {
+            "career": None,
+            "career_id": None,
+            "target_course": profile.get("target_course")
+        }
+
+    career = career_knowledge.get_career(cid)
+
+    if not career:
+        return {
+            "career": None,
+            "career_id": cid,
+            "target_course": profile.get("target_course")
+        }
+
+    target_course = profile.get("target_course")
+
+    if not target_course:
+        courses = career.get("university_courses", [])
+        target_course = courses[0] if courses else career.get("name")
+
+    return {
+        "career": career,
+        "career_id": cid,
+        "target_course": target_course
+    }
+
+

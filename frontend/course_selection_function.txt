@@ -1,0 +1,126 @@
+function showCourseSelection(career) {
+
+  const panel =
+    $("#courseSelectionPanel");
+
+  const options =
+    $("#courseOptions");
+
+  const description =
+    $("#courseSelectionDescription");
+
+  const status =
+    $("#courseSelectionStatus");
+
+  if (!panel || !options) {
+    console.warn(
+      "Course selection panel not found."
+    );
+    return;
+  }
+
+  const courses =
+    career.university_courses || [];
+
+  if (!courses.length) {
+    panel.style.display = "none";
+    return;
+  }
+
+  description.textContent =
+    `You selected ${career.name}. Choose the specific course you would like to study.`;
+
+  options.innerHTML =
+    courses
+      .map(
+        (course) => `
+          <button
+            type="button"
+            class="course-option-card"
+            data-course="${course}"
+          >
+            ${course}
+          </button>
+        `
+      )
+      .join("");
+
+  status.textContent = "";
+
+  panel.style.display = "block";
+
+  $$("#courseOptions .course-option-card")
+    .forEach((button) => {
+
+      button.addEventListener(
+        "click",
+        async () => {
+
+          const selectedCourse =
+            button.dataset.course;
+
+          if (!selectedCourse) {
+            return;
+          }
+
+          try {
+
+            const data =
+              await apiPost(
+                "/profile/update",
+                {
+                  session_id:
+                    state.sessionId,
+
+                  target_course:
+                    selectedCourse
+                }
+              );
+
+            if (data && data.profile) {
+              state.profile =
+                data.profile;
+            }
+
+            $$("#courseOptions .course-option-card")
+              .forEach((item) => {
+                item.classList.remove(
+                  "selected-course"
+                );
+              });
+
+            button.classList.add(
+              "selected-course"
+            );
+
+            status.textContent =
+              `Selected course: ${selectedCourse}`;
+
+            console.log(
+              "Course selected:",
+              selectedCourse
+            );
+
+            const sessionData =
+              await apiGet(
+                `/session/${state.sessionId}`
+              );
+
+            renderDashboardData(
+              sessionData
+            );
+
+          } catch (error) {
+
+            console.error(
+              "Failed to select course:",
+              error
+            );
+
+            status.textContent =
+              "Unable to save the course selection. Please try again.";
+          }
+        }
+      );
+    });
+}

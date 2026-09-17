@@ -1,0 +1,22 @@
+        <div
+            id="courseSelectionPanel"
+            class="info-card"
+            style="display:none; margin-top:24px;"
+        >
+            <h3>Choose Your Specific Course</h3>
+
+            <p id="courseSelectionDescription">
+                Select the specific course you would like to study.
+            </p>
+
+            <div
+                id="courseOptions"
+                class="cards-grid"
+            >
+            </div>
+
+            <p
+                id="courseSelectionStatus"
+                style="margin-top:16px;"
+            ></p>
+        </div>

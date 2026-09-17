@@ -1,0 +1,103 @@
+async function loadExistingSession() {
+
+  /*
+   * If no session exists, create one from the backend.
+   * This ensures profile updates and career selection
+   * always have a valid session_id.
+   */
+
+  if (!state.sessionId) {
+
+    try {
+
+      const session =
+        await apiPost(
+          "/session",
+          {}
+        );
+
+      state.sessionId =
+        session.session_id;
+
+      localStorage.setItem(
+        SESSION_KEY,
+        state.sessionId
+      );
+
+      console.log(
+        "New CareerVoice session created:",
+        state.sessionId
+      );
+
+    } catch (err) {
+
+      console.error(
+        "Failed to create CareerVoice session:",
+        err
+      );
+
+      return;
+    }
+  }
+
+
+  try {
+
+    const data =
+      await apiGet(
+        `/session/${encodeURIComponent(
+          state.sessionId
+        )}`
+      );
+
+
+    renderDashboardData({
+      profile:
+        data.profile,
+
+      profile_completeness:
+        data.profile_completeness,
+
+      career_matches:
+        data.career_matches,
+
+      university_matches:
+        data.university_matches,
+
+      admission_readiness:
+        data.admission_readiness,
+
+      next_best_question:
+        data.next_best_question,
+    });
+
+
+    /*
+     * If there is already a saved
+     * session, don't restart the
+     * counselor from SS1/SS2/SS3.
+     */
+
+    loadOnboardingState();
+
+    state.onboarding.active = true;
+
+    if (!state.onboarding.stage) {
+      state.onboarding.stage = "class";
+    }
+
+  } catch (err) {
+
+    console.error(
+      "Failed to load CareerVoice session:",
+      err
+    );
+
+    state.sessionId =
+      null;
+
+    localStorage.removeItem(
+      SESSION_KEY
+    );
+  }
+}

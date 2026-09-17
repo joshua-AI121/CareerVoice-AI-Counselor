@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CareerVoice AI — Career & University Counselor</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     SIDEBAR — FUTURISTIC CAREERVOICE NAVIGATION
+========================================================= -->
+
+<aside class="sidebar">
+
+    <div class="brand">
+        <div class="brand-mark">
+            <span class="brand-orbit">✦</span>
+        </div>
+
+        <div class="brand-word">
+            <span>Career</span><strong>Voice</strong>
+            <small>AI COUNSELING SYSTEM</small>
+        </div>
+    </div>
+
+    <div class="sidebar-section-label">COMMAND CENTER</div>
+
+    <nav class="main-nav">
+
+        <div class="nav-item active" data-view="dashboard">
+            <span class="nav-icon">⌂</span>
+            <span class="nav-copy">
+                <b>Dashboard</b>
+                <small>AI Command Center</small>
+            </span>
+            <span class="nav-arrow">›</span>
+        </div>
+
+        <div class="nav-item" data-view="careers">
+            <span class="nav-icon">◈</span>
+            <span class="nav-copy">
+                <b>Career Intelligence</b>
+                <small>Explore career paths</small>
+            </span>
+            <span class="nav-arrow">›</span>
+        </div>
+
+        <div class="nav-item" data-view="universities">
+            <span class="nav-icon">🎓</span>
+            <span class="nav-copy">
+                <b>University Finder</b>
+                <small>Find your institution</small>
+            </span>
+            <span class="nav-arrow">›</span>
+        </div>
+
+        <div class="nav-item" data-view="admission">
+            <span class="nav-icon">▣</span>
+            <span class="nav-copy">
+                <b>Admission Planner</b>
+                <small>Plan your admission</small>
+            </span>
+            <span class="nav-arrow">›</span>
+        </div>
+
+        <div class="nav-item" data-view="jamb">
+            <span class="nav-icon">◎</span>
+            <span class="nav-copy">
+                <b>JAMB Assistant</b>
+                <small>UTME guidance</small>
+            </span>
+            <span class="nav-arrow">›</span>
+        </div>
+
+        <div class="nav-item" data-view="action-plan">
+            <span class="nav-icon">◆</span>
+            <span class="nav-copy">
+                <b>Action Plan</b>
+                <small>Your next steps</small>
+            </span>
+            <span class="nav-arrow">›</span>
+        </div>
+
+        <div class="nav-item" data-view="search">
+            <span class="nav-icon">⌕</span>
+            <span class="nav-copy">
+                <b>Smart Search</b>
+                <small>Ask CareerVoice</small>
+            </span>
+            <span class="nav-arrow">›</span>
+        </div>
+
+    </nav>
+
+    <div class="nav-spacer"></div>
+
+    <div class="sidebar-ai-card">
+        <div class="sidebar-ai-orb">✦</div>
+        <div>
+            <span>CAREERVOICE CORE</span>
+            <b>AI LINK ONLINE</b>
+        </div>
+        <i></i>
+    </div>
+
+    <div class="nav-foot" id="profileFoot">
+        <div class="profile-foot-top">
+            <span>PROFILE SYNC</span>
+            <strong>0%</strong>
+        </div>
+        <div class="profile-foot-bar">
+            <span></span>
+        </div>
+        <p>Start talking or typing to build your student profile.</p>
+    </div>
+
+</aside>
+
+
+<!-- =========================================================
+     MAIN APPLICATION
+========================================================= -->
+
+<main class="main">
+
+    <!-- =====================================================
+         TOP BAR — SYSTEM STATUS
+    ====================================================== -->
+
+    <div class="topbar">
+
+        <div class="topbar-left">
+            <button class="mobile-menu-btn" type="button" aria-label="Open navigation">☰</button>
+
+            <div class="command-breadcrumb">
+                <span>CAREERVOICE</span>
+                <i>/</i>
+                <strong>AI COMMAND CENTER</strong>
+            </div>
+        </div>
+
+        <div class="topbar-right">
+
+            <div class="network-status">
+                <span class="status-dot"></span>
+                <span>AI ONLINE</span>
+                <small>SECURE LINK</small>
+            </div>
+
+            <div class="avatar">
+                🎓
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         DASHBOARD
+         ORIGINAL STRUCTURE — ENHANCED FUNCTIONALITY
+    ====================================================== -->
+
+    <section class="view active" data-view="dashboard">
+
+        <!-- Dashboard heading -->
+
+        <!-- VOICE ACTIVATION -->
+<div id="voiceActivation" class="voice-activation">
+    <div class="voice-activation-glow"></div>
+
+    <div class="voice-activation-content">
+
+        <div class="voice-activation-icon">
+            ◉
+        </div>
+
+        <div class="voice-activation-info">
+            <div class="voice-activation-title">
+                ACTIVATE CAREERVOICE
+            </div>
+
+            <div class="voice-activation-subtitle">
+                VOICE COUNSELOR • ONLINE
+            </div>
+        </div>
+
+        <button
+            id="activateVoiceBtn"
+            class="voice-activation-btn"
+            type="button"
+        >
+            START
+        </button>
+
+    </div>
+</div>
+        <div class="dashboard-command-header">
+
+            <div>
+
+                <div class="eyebrow">
+                    CAREERVOICE INTELLIGENCE SYSTEM
+                </div>
+
+                <h1 id="greetingText">
+                    Good day 👋
+                </h1>
+
+                <p>
+                    Your AI-powered career, university and admission counselor.
+                </p>
+
+            </div>
+
+            <div class="dashboard-system-status">
+
+                <div class="system-status-label">
+                    AI INTELLIGENCE
+                </div>
+
+                <div
+                    class="system-status-value"
+                    id="aiIntelligenceStatus"
+                >
+                    AWAITING PROFILE DATA
+                </div>
+
+                <div
+                    class="dashboard-updated"
+                    id="dashboardUpdated"
+                >
+                    System ready
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             AI COUNSELOR HERO
+        ================================================== -->
+
+        <section class="hero ai-command-center">
+
+            <div class="hero-left">
+
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    <span>CAREERVOICE AI COUNSELOR</span>
+                    <em>LIVE</em>
+                </div>
+
+                <div class="hero-title-block">
+                    <span class="hero-command-label">YOUR FUTURE // INTELLIGENCE MODE</span>
+
+                    <h2>
+                        Build your future
+                        <span>with intelligence.</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        Talk with CareerVoice about your class, subjects, strengths,
+                        interests and goals. Your counselor turns the conversation
+                        into personalized career, university and admission guidance.
+                    </p>
+                </div>
+
+                <!-- AI ORB -->
+                <div class="orb-stage">
+
+                    <div
+                        class="ai-orb orb-ready"
+                        id="aiOrb"
+                        aria-label="CareerVoice AI"
+                    >
+
+                        <div class="orb-glow"></div>
+
+                        <div class="ai-energy-ring ring-a"></div>
+                        <div class="ai-energy-ring ring-b"></div>
+                        <div class="ai-energy-ring ring-c"></div>
+
+                        <div class="orb-particle particle-a"></div>
+                        <div class="orb-particle particle-b"></div>
+                        <div class="orb-particle particle-c"></div>
+                        <div class="orb-particle particle-d"></div>
+
+                        <div
+                            class="ai-core core-ready"
+                            id="aiCore"
+                        >
+
+                            <div class="core-inner">
+                                <div class="core-symbol">✦</div>
+                                <div class="core-scan"></div>
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="ai-state-label"
+                            id="aiStateLabel"
+                        >
+                            AI ONLINE
+                        </div>
+
+                    </div>
+
+                    <div class="orb-floor-glow"></div>
+
+                </div>
+
+                <div class="orb-meta">
+                    <span><i></i> NEURAL CORE ACTIVE</span>
+                    <span>VOICE + TEXT</span>
+                    <span>EN-NG</span>
+                </div>
+
+                <!-- Prompt -->
+                <div
+                    class="hero-prompt"
+                    id="heroPrompt"
+                >
+                    Tell me about your career goals
+                </div>
+
+                <!-- Waveform -->
+                <div
+                    class="waveform state-ready"
+                    id="waveform"
+                ></div>
+
+                <div class="hero-help-row">
+                    <span>🎙 Voice counselor</span>
+                    <span>⌨ Text counselor</span>
+                    <span>⚡ Real-time guidance</span>
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT SIDE — LIVE AI / STUDENT CONVERSATION -->
+            <section class="live-conversation-panel">
+
+                <div class="conversation-top-line"></div>
+
+                <div class="live-conversation-header">
+
+                    <div class="conversation-title-wrap">
+                        <div class="conversation-icon">◉</div>
+                        <div>
+                            <div class="live-conversation-title">
+                                <span class="live-dot"></span>
+                                LIVE CONVERSATION
+                            </div>
+                            <div class="conversation-channel">
+                                AI ↔ STUDENT / COUNSELING CHANNEL
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="live-conversation-status">
+                        AI LINK ACTIVE
+                    </div>
+
+                </div>
+
+                <div class="live-conversation-subtitle">
+                    Your conversation with CareerVoice appears here in real time.
+                </div>
+
+                <div class="conversation-session-bar">
+                    <span><i></i> SESSION ACTIVE</span>
+                    <span>● EN-NG</span>
+                </div>
+
+                <!-- Keep this ID — app.js uses it -->
+                <div
+                    class="chat-log"
+                    id="chatLog"
+                ></div>
+
+                <div class="live-conversation-footer">
+
+                    <div class="voice-activity-indicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="conversation-status-text" id="conversationStatus">
+                        READY FOR RESPONSE
+                    </div>
+
+                </div>
+
+                <!-- Redesigned input area — existing IDs preserved -->
+                <div class="chat-composer">
+
+                    <button
+                        class="mic-btn"
+                        id="micBtn"
+                        type="button"
+                        title="Speak to CareerVoice AI"
+                        aria-label="Speak to CareerVoice AI"
+                    >
+                        <span class="mic-icon">🎙</span>
+                        <span class="mic-ripple"></span>
+                    </button>
+
+                    <div class="text-composer">
+
+                        <div class="composer-label">
+                            <span>MESSAGE CAREERVOICE</span>
+                            <small>Press Enter to send</small>
+                        </div>
+
+                        <input
+                            type="text"
+                            id="textInput"
+                            placeholder="Type your answer or ask a career question..."
+                            autocomplete="off"
+                            aria-label="Message CareerVoice"
+                        >
+
+                    </div>
+
+                    <button
+                        class="send-btn"
+                        id="sendBtn"
+                        type="button"
+                        aria-label="Send message"
+                    >
+                        <span>Send</span>
+                        <b>↗</b>
+                    </button>
+
+                </div>
+
+                <div
+                    class="voice-hint"
+                    id="voiceHint"
+                >
+                    🎤 Tap the microphone to speak with your AI counselor
+                </div>
+
+            </section>
+
+        </section>
+
+
+        <!-- =================================================
+             INTELLIGENCE OVERVIEW
+        ================================================== -->
+
+        <section class="intelligence-grid">
+
+
+            <!-- PROFILE -->
+
+            <article class="intelligence-card profile-card">
+
+                <div class="card-top">
+
+                    <div>
+                        <span class="card-kicker">
+                            PROFILE INTELLIGENCE
+                        </span>
+
+                        <h3>
+                            Student Profile
+                        </h3>
+                    </div>
+
+                    <span class="card-icon">
+                        ◉
+                    </span>
+
+                </div>
+
+
+                <div class="profile-visual">
+
+                    <svg
+                        class="profile-ring"
+                        viewBox="0 0 110 110"
+                    >
+
+                        <circle
+                            cx="55"
+                            cy="55"
+                            r="42"
+                            class="profile-ring-bg"
+                        ></circle>
+
+                        <circle
+                            cx="55"
+                            cy="55"
+                            r="42"
+                            class="profile-ring-progress"
+                            id="profileRing"
+                            stroke-dasharray="263.9"
+                            stroke-dashoffset="263.9"
+                        ></circle>
+
+                    </svg>
+
+
+                    <div class="profile-percent">
+
+                        <strong id="profilePercentVal">
+                            0%
+                        </strong>
+
+                        <span>
+                            COMPLETE
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="intelligence-footer">
+
+                    <span id="profileSignal">
+                        Student profile
+                    </span>
+
+                    <strong id="profilePercentNum">
+                        0%
+                    </strong>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- CAREER -->
+
+            <article class="intelligence-card">
+
+                <div class="card-top">
+
+                    <div>
+                        <span class="card-kicker">
+                            CAREER INTELLIGENCE
+                        </span>
+
+                        <h3>
+                            Top Career Match
+                        </h3>
+                    </div>
+
+                    <span class="card-icon">
+                        ◈
+                    </span>
+
+                </div>
+
+
+                <div class="match-display">
+
+                    <div
+                        class="match-percent"
+                        id="topCareerPct"
+                    >
+                        0% CareerVoice Match
+                    </div>
+
+                    <div
+                        class="match-title"
+                        id="topCareerName"
+                    >
+                        Discovering...
+                    </div>
+
+                </div>
+
+
+                <div class="intelligence-footer">
+
+                    <span id="careerSignal">
+                        Scanning...
+                    </span>
+
+                    <span class="signal-live">
+                        ● LIVE
+                    </span>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- UNIVERSITY -->
+
+            <article class="intelligence-card">
+
+                <div class="card-top">
+
+                    <div>
+                        <span class="card-kicker">
+                            UNIVERSITY INTELLIGENCE
+                        </span>
+
+                        <h3>
+                            Top University Match
+                        </h3>
+                    </div>
+
+                    <span class="card-icon">
+                        ⌂
+                    </span>
+
+                </div>
+
+
+                <div class="match-display">
+
+                    <div
+                        class="match-percent"
+                        id="topUniPct"
+                    >
+                        0% CareerVoice Match
+                    </div>
+
+                    <div
+                        class="match-title"
+                        id="topUniName"
+                    >
+                        Discovering...
+                    </div>
+
+                </div>
+
+
+                <div class="intelligence-footer">
+
+                    <span id="universitySignal">
+                        Scanning...
+                    </span>
+
+                    <span class="signal-live">
+                        ● LIVE
+                    </span>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- ADMISSION -->
+
+            <article class="intelligence-card admission-card">
+
+                <div class="card-top">
+
+                    <div>
+                        <span class="card-kicker">
+                            ADMISSION INTELLIGENCE
+                        </span>
+
+                        <h3>
+                            Admission Readiness
+                        </h3>
+                    </div>
+
+                    <span class="card-icon">
+                        ⟁
+                    </span>
+
+                </div>
+
+
+                <div class="readiness-display">
+
+                    <div
+                        class="readiness-number"
+                        id="readinessPct"
+                    >
+                        0%
+                    </div>
+
+                    <div class="readiness-bar">
+
+                        <div
+                            class="readiness-fill"
+                            id="readinessFill"
+                            style="width:0%"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="readiness-note"
+                    id="readinessNote"
+                >
+                    Set a career goal first
+                </div>
+
+
+                <div class="intelligence-footer">
+
+                    <span id="admissionSignal">
+                        0%
+                    </span>
+
+                    <span>
+                        READINESS
+                    </span>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CAREER DISCOVERY
+        ================================================== -->
+
+        <section class="dashboard-two-column">
+
+
+            <article class="dashboard-panel career-panel">
+
+                <div class="panel-header">
+
+                    <div>
+
+                        <span class="card-kicker">
+                            CAREER INTELLIGENCE
+                        </span>
+
+                        <h2>
+                            Career Discovery
+                        </h2>
+
+                        <p>
+                            Careers ranked according to your profile.
+                        </p>
+
+                    </div>
+
+                    <div class="panel-status">
+                        AI MATCHING
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="career-discovery-list"
+                    id="careerDiscoveryList"
+                >
+
+                    <div class="empty-state">
+                        <span>✦</span>
+                        <p>
+                            Start a conversation to discover
+                            your strongest career matches.
+                        </p>
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 UNIVERSITY FINDER
+            ================================================== -->
+
+            <article class="dashboard-panel university-panel">
+
+                <div class="panel-header">
+
+                    <div>
+
+                        <span class="card-kicker">
+                            UNIVERSITY INTELLIGENCE
+                        </span>
+
+                        <h2>
+                            University Finder
+                        </h2>
+
+                        <p>
+                            Find institutions that fit your goals.
+                        </p>
+
+                    </div>
+
+                    <div class="panel-status">
+                        LIVE SEARCH
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="university-finder-list"
+                    id="universityFinderList"
+                >
+
+                    <div class="empty-state">
+                        <span>🎓</span>
+                        <p>
+                            Your personalized university
+                            recommendations will appear here.
+                        </p>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+
+        <!-- =================================================
+             NEXT BEST QUESTION
+        ================================================== -->
+
+        <section
+            class="next-question-panel"
+            id="nextQPanel"
+        >
+
+            <div class="next-question-icon">
+                ?
+            </div>
+
+
+            <div class="next-question-content">
+
+                <span class="card-kicker">
+                    AI GUIDANCE
+                </span>
+
+                <h2>
+                    Next best question
+                </h2>
+
+                <p id="nextQText">
+                    Tell me about yourself so I can build
+                    your student profile.
+                </p>
+
+
+                <div
+                    class="next-question-chips"
+                    id="nextQChips"
+                >
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CAREERS VIEW
+    ====================================================== -->
+
+    <section
+        class="view"
+        data-view="careers"
+    >
+
+        <div class="page-header">
+
+            <span class="eyebrow">
+                CAREER INTELLIGENCE
+            </span>
+
+            <h1>
+                Explore Careers
+            </h1>
+
+            <p>
+                Discover career paths matched to your interests,
+                subjects and strengths.
+            </p>
+
+        </div>
+
+
+        <div class="filter-row">
+
+            <button
+                class="filter-btn active"
+                data-filter="All"
+            >
+                All
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="Science"
+            >
+                Science
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="Art"
+            >
+                Art
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="Humanities"
+            >
+                Humanities
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="Commercial"
+            >
+                Commercial
+            </button>
+
+        </div>
+
+
+        <div
+            class="cards-grid"
+            id="careersGrid"
+        >
+        </div>
+        <div
+            id="courseSelectionPanel"
+            class="info-card"
+            style="display:none; margin-top:24px;"
+        >
+            <h3>Choose Your Specific Course</h3>
+
+            <p id="courseSelectionDescription">
+                Select the specific course you would like to study.
+            </p>
+
+            <div
+                id="courseOptions"
+                class="cards-grid"
+            >
+            </div>
+
+            <p
+                id="courseSelectionStatus"
+                style="margin-top:16px;"
+            ></p>
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =====================================================
+         UNIVERSITY VIEW
+    ====================================================== -->
+
+    <section
+        class="view"
+        data-view="universities"
+    >
+
+        <div class="page-header">
+
+            <span class="eyebrow">
+                UNIVERSITY INTELLIGENCE
+            </span>
+
+            <h1>
+                University Finder
+            </h1>
+
+            <p>
+                Search Nigerian universities based on your
+                preferred course, state and institution type.
+            </p>
+
+        </div>
+
+
+        <div class="search-controls">
+
+            <input
+                id="uniCourseInput"
+                type="text"
+                placeholder="Course e.g. Medicine"
+            >
+
+            <input
+                id="uniStateInput"
+                type="text"
+                placeholder="State e.g. Enugu"
+            >
+
+            <select id="uniTypeInput">
+
+                <option value="">
+                    All university types
+                </option>
+
+                <option value="Federal">
+                    Federal
+                </option>
+
+                <option value="State">
+                    State
+                </option>
+
+                <option value="Private">
+                    Private
+                </option>
+
+            </select>
+
+
+            <button
+                id="uniSearchBtn"
+                type="button"
+            >
+                Search
+            </button>
+
+        </div>
+
+
+        <div
+            class="cards-grid"
+            id="universitiesGrid"
+        >
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ADMISSION VIEW
+    ====================================================== -->
+
+    <section
+        class="view"
+        data-view="admission"
+    >
+
+        <div class="page-header">
+
+            <span class="eyebrow">
+                ADMISSION INTELLIGENCE
+            </span>
+
+            <h1>
+                Admission Planner
+            </h1>
+
+            <p>
+                Explore admission information for your selected
+                career path.
+            </p>
+
+        </div>
+
+
+        <div class="planner-controls">
+
+            <select id="admissionCareerSelect">
+
+                <option value="">
+                    Select a career
+                </option>
+
+            </select>
+
+
+            <button
+                id="admissionLoadBtn"
+                type="button"
+            >
+                Load Admission Plan
+            </button>
+
+        </div>
+
+
+        <div
+            class="result-panel"
+            id="admissionResult"
+        >
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         JAMB VIEW
+    ====================================================== -->
+
+    <section
+        class="view"
+        data-view="jamb"
+    >
+
+        <div class="page-header">
+
+            <span class="eyebrow">
+                JAMB ASSISTANT
+            </span>
+
+            <h1>
+                JAMB Assistant
+            </h1>
+
+            <p>
+                Get guidance for your chosen career and admission
+                preparation.
+            </p>
+
+        </div>
+
+
+        <div class="planner-controls">
+
+            <select id="jambCareerSelect">
+
+                <option value="">
+                    Select a career
+                </option>
+
+            </select>
+
+
+            <button
+                id="jambLoadBtn"
+                type="button"
+            >
+                Load JAMB Guidance
+            </button>
+
+        </div>
+
+
+        <div
+            class="result-panel"
+            id="jambResult"
+        >
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ACTION PLAN VIEW
+    ====================================================== -->
+
+    <section
+        class="view"
+        data-view="action-plan"
+    >
+
+        <div class="page-header">
+
+            <span class="eyebrow">
+                PERSONALIZED INTELLIGENCE
+            </span>
+
+            <h1>
+                Your Action Plan
+            </h1>
+
+            <p>
+                Follow your personalized steps toward your
+                chosen career.
+            </p>
+
+        </div>
+
+
+        <button
+            id="refreshPlanBtn"
+            type="button"
+        >
+            Refresh Action Plan
+        </button>
+
+
+        <div
+            class="action-plan-list"
+            id="actionPlanList"
+        >
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         SMART SEARCH VIEW
+    ====================================================== -->
+
+    <section
+        class="view"
+        data-view="search"
+    >
+
+        <div class="page-header">
+
+            <span class="eyebrow">
+                CAREERVOICE SEARCH
+            </span>
+
+            <h1>
+                Smart Search
+            </h1>
+
+            <p>
+                Search CareerVoice intelligence across careers,
+                universities and admission information.
+            </p>
+
+        </div>
+
+
+        <div class="search-controls">
+
+            <input
+                id="smartSearchInput"
+                type="text"
+                placeholder="Search careers, universities or courses..."
+            >
+
+
+            <button
+                id="smartSearchBtn"
+                type="button"
+            >
+                Search
+            </button>
+
+        </div>
+
+
+        <div
+            class="search-results"
+            id="smartSearchResults"
+        >
+        </div>
+
+    </section>
+
+
+</main>
+
+
+<!-- =========================================================
+     APPLICATION JAVASCRIPT
+========================================================= -->
+
+<script src="app.js"></script>
+
+</body>
+</html>
+

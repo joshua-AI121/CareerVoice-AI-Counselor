@@ -1,0 +1,332 @@
+[
+  {
+    "id": "ui",
+    "name": "University of Ibadan",
+    "short_name": "UI",
+    "type": "Federal",
+    "state": "Oyo",
+    "location": "Ibadan, Oyo State",
+    "website": "https://www.ui.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Pharmacy", "Nursing Science", "Veterinary Medicine", "Economics", "Political Science", "English", "Sociology", "Computer Science", "Agriculture"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Consistently ranked among Nigeria's leading universities; check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://www.ui.edu.ng"
+  },
+  {
+    "id": "unn",
+    "name": "University of Nigeria, Nsukka",
+    "short_name": "UNN",
+    "type": "Federal",
+    "state": "Enugu",
+    "location": "Nsukka, Enugu State",
+    "website": "https://www.unn.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Pharmacy", "Engineering", "Accounting", "Economics", "Mass Communication", "Computer Science", "Agriculture", "Architecture"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://www.unn.edu.ng"
+  },
+  {
+    "id": "unilag",
+    "name": "University of Lagos",
+    "short_name": "UNILAG",
+    "type": "Federal",
+    "state": "Lagos",
+    "location": "Akoka, Lagos State",
+    "website": "https://unilag.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Business Administration", "Accounting", "Mass Communication", "Computer Science", "Engineering", "Economics", "Pharmacy"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Frequently ranked among Nigeria's top universities; check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://unilag.edu.ng"
+  },
+  {
+    "id": "oau",
+    "name": "Obafemi Awolowo University",
+    "short_name": "OAU",
+    "type": "Federal",
+    "state": "Osun",
+    "location": "Ile-Ife, Osun State",
+    "website": "https://oauife.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Pharmacy", "Architecture", "Estate Management", "Economics", "Computer Science", "Agriculture", "Mass Communication"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://oauife.edu.ng"
+  },
+  {
+    "id": "abu",
+    "name": "Ahmadu Bello University",
+    "short_name": "ABU",
+    "type": "Federal",
+    "state": "Kaduna",
+    "location": "Zaria, Kaduna State",
+    "website": "https://abu.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Agriculture", "Engineering", "Pharmacy", "Veterinary Medicine", "Architecture", "Economics", "Computer Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://abu.edu.ng"
+  },
+  {
+    "id": "uniben",
+    "name": "University of Benin",
+    "short_name": "UNIBEN",
+    "type": "Federal",
+    "state": "Edo",
+    "location": "Benin City, Edo State",
+    "website": "https://uniben.edu",
+    "courses": ["Medicine and Surgery", "Law", "Pharmacy", "Engineering", "Accounting", "Mass Communication", "Computer Science", "Architecture"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://uniben.edu"
+  },
+  {
+    "id": "uniport",
+    "name": "University of Port Harcourt",
+    "short_name": "UNIPORT",
+    "type": "Federal",
+    "state": "Rivers",
+    "location": "Port Harcourt, Rivers State",
+    "website": "https://uniport.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Petroleum Engineering", "Pharmacy", "Accounting", "Political Science", "Computer Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://uniport.edu.ng"
+  },
+  {
+    "id": "futa",
+    "name": "Federal University of Technology, Akure",
+    "short_name": "FUTA",
+    "type": "Federal",
+    "state": "Ondo",
+    "location": "Akure, Ondo State",
+    "website": "https://futa.edu.ng",
+    "courses": ["Civil Engineering", "Mechanical Engineering", "Electrical/Electronics Engineering", "Computer Science", "Architecture", "Agriculture", "Environmental Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://futa.edu.ng"
+  },
+  {
+    "id": "futminna",
+    "name": "Federal University of Technology, Minna",
+    "short_name": "FUTMINNA",
+    "type": "Federal",
+    "state": "Niger",
+    "location": "Minna, Niger State",
+    "website": "https://futminna.edu.ng",
+    "courses": ["Civil Engineering", "Mechanical Engineering", "Computer Science", "Architecture", "Agriculture"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://futminna.edu.ng"
+  },
+  {
+    "id": "unizik",
+    "name": "Nnamdi Azikiwe University",
+    "short_name": "UNIZIK",
+    "type": "Federal",
+    "state": "Anambra",
+    "location": "Awka, Anambra State",
+    "website": "https://unizik.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Pharmacy", "Engineering", "Accounting", "Mass Communication", "Computer Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://unizik.edu.ng"
+  },
+  {
+    "id": "unical",
+    "name": "University of Calabar",
+    "short_name": "UNICAL",
+    "type": "Federal",
+    "state": "Cross River",
+    "location": "Calabar, Cross River State",
+    "website": "https://unical.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Pharmacy", "Accounting", "Political Science", "Computer Science", "Agriculture"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://unical.edu.ng"
+  },
+  {
+    "id": "buk",
+    "name": "Bayero University, Kano",
+    "short_name": "BUK",
+    "type": "Federal",
+    "state": "Kano",
+    "location": "Kano, Kano State",
+    "website": "https://buk.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Agriculture", "Engineering", "Accounting", "Computer Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://buk.edu.ng"
+  },
+  {
+    "id": "udusok",
+    "name": "Usmanu Danfodiyo University, Sokoto",
+    "short_name": "UDUSOK",
+    "type": "Federal",
+    "state": "Sokoto",
+    "location": "Sokoto, Sokoto State",
+    "website": "https://udusok.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Agriculture", "Education", "Accounting"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://udusok.edu.ng"
+  },
+  {
+    "id": "lasu",
+    "name": "Lagos State University",
+    "short_name": "LASU",
+    "type": "State",
+    "state": "Lagos",
+    "location": "Ojo, Lagos State",
+    "website": "https://lasu.edu.ng",
+    "courses": ["Law", "Business Administration", "Accounting", "Mass Communication", "Computer Science", "Nursing Science", "Political Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://lasu.edu.ng"
+  },
+  {
+    "id": "rsu",
+    "name": "Rivers State University",
+    "short_name": "RSU",
+    "type": "State",
+    "state": "Rivers",
+    "location": "Port Harcourt, Rivers State",
+    "website": "https://ust.edu.ng",
+    "courses": ["Engineering", "Law", "Accounting", "Computer Science", "Environmental Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://ust.edu.ng"
+  },
+  {
+    "id": "eksu",
+    "name": "Ekiti State University",
+    "short_name": "EKSU",
+    "type": "State",
+    "state": "Ekiti",
+    "location": "Ado-Ekiti, Ekiti State",
+    "website": "https://eksu.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Agriculture", "Accounting", "Education", "Computer Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://eksu.edu.ng"
+  },
+  {
+    "id": "kwasu",
+    "name": "Kwara State University",
+    "short_name": "KWASU",
+    "type": "State",
+    "state": "Kwara",
+    "location": "Malete, Kwara State",
+    "website": "https://kwasu.edu.ng",
+    "courses": ["Engineering", "Law", "Agriculture", "Business Administration", "Computer Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "O'Level, UTME subject and cut-off requirements vary by faculty and change yearly. Verify current requirements on the university's admissions page and the JAMB brochure.",
+    "source": "https://kwasu.edu.ng"
+  },
+  {
+    "id": "covenant",
+    "name": "Covenant University",
+    "short_name": "Covenant",
+    "type": "Private",
+    "state": "Ogun",
+    "location": "Ota, Ogun State",
+    "website": "https://covenantuniversity.edu.ng",
+    "courses": ["Engineering", "Business Administration", "Computer Science", "Mass Communication", "Accounting", "Architecture"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Frequently cited among Nigeria's top private universities; check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "Private university tuition and admission requirements differ from federal/state universities. Verify current requirements on the university's admissions page.",
+    "source": "https://covenantuniversity.edu.ng"
+  },
+  {
+    "id": "babcock",
+    "name": "Babcock University",
+    "short_name": "Babcock",
+    "type": "Private",
+    "state": "Ogun",
+    "location": "Ilishan-Remo, Ogun State",
+    "website": "https://babcock.edu.ng",
+    "courses": ["Medicine and Surgery", "Nursing Science", "Law", "Business Administration", "Computer Science", "Accounting"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "Private university tuition and admission requirements differ from federal/state universities. Verify current requirements on the university's admissions page.",
+    "source": "https://babcock.edu.ng"
+  },
+  {
+    "id": "abuad",
+    "name": "Afe Babalola University",
+    "short_name": "ABUAD",
+    "type": "Private",
+    "state": "Ekiti",
+    "location": "Ado-Ekiti, Ekiti State",
+    "website": "https://abuad.edu.ng",
+    "courses": ["Medicine and Surgery", "Law", "Engineering", "Pharmacy", "Business Administration", "Computer Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "Private university tuition and admission requirements differ from federal/state universities. Verify current requirements on the university's admissions page.",
+    "source": "https://abuad.edu.ng"
+  },
+  {
+    "id": "bowen",
+    "name": "Bowen University",
+    "short_name": "Bowen",
+    "type": "Private",
+    "state": "Osun",
+    "location": "Iwo, Osun State",
+    "website": "https://bowen.edu.ng",
+    "courses": ["Medicine and Surgery", "Nursing Science", "Law", "Accounting", "Computer Science", "Mass Communication"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "Private university tuition and admission requirements differ from federal/state universities. Verify current requirements on the university's admissions page.",
+    "source": "https://bowen.edu.ng"
+  },
+  {
+    "id": "landmark",
+    "name": "Landmark University",
+    "short_name": "Landmark",
+    "type": "Private",
+    "state": "Kwara",
+    "location": "Omu-Aran, Kwara State",
+    "website": "https://lmu.edu.ng",
+    "courses": ["Agriculture", "Engineering", "Business Administration", "Computer Science", "Environmental Science"],
+    "rankings": [
+      {"organization": "Information requires verification", "year": null, "position": "Check the latest THE, QS or Webometrics tables for the current position."}
+    ],
+    "admission_note": "Private university tuition and admission requirements differ from federal/state universities. Verify current requirements on the university's admissions page.",
+    "source": "https://lmu.edu.ng"
+  }
+]
